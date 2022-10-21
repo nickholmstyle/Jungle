@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   resource :cart, only: [:show] do
     post   :add_item
     post   :remove_item
-  end
+  end 
 
   resources :orders, only: [:create, :show]
 
@@ -18,7 +18,7 @@ Rails.application.routes.draw do
     root to: 'dashboard#show'
     resources :products, except: [:edit, :update, :show]
     resources :categories, only: [:new, :index, :create]
-    resources :sales, only: [:index]
+    resources :sales, only: [:index, :new]
   end
 
     # These routes will be for signup. The first renders a form in the browse, the second will 

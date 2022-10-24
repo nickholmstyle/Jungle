@@ -18,4 +18,4 @@ describe('Home page', () => {
       .visit('/products/2')
   });
 
-})
+});

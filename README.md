@@ -32,5 +32,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Rspec
 - Cypress
 
-
+![Sample_1](https://github.com/nickholmstyle/Jungle/blob/master/public/images/Sample_1.png?raw=true)
+![Sample_2](https://github.com/nickholmstyle/Jungle/blob/master/public/images/Sample_2.png?raw=true)
+![Sample_3](https://github.com/nickholmstyle/Jungle/blob/master/public/images/Sample_3.png?raw=true)
 

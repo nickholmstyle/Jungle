@@ -40,6 +40,7 @@ RSpec.describe Product, type: :model do
   end  
 end
 
+#This is the sample of validations to check against.
 # validates :name, presence: true
 # validates :price, presence: true ## needs to be price_cents
 # validates :quantity, presence: true
